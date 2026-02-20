@@ -32,13 +32,10 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
-            <h2 className="text-primary text-sm md:text-base uppercase tracking-[0.4em] mb-4 font-bold">
-              Premium Custom Tattoo Studio
-            </h2>
-            <h1 className="text-5xl md:text-7xl lg:text-9xl font-display font-black text-white mb-6 tracking-tight">
-              ART THAT <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-500">LASTS</span>
-            </h1>
-            <p className="text-gray-300 max-w-2xl mx-auto text-lg md:text-xl mb-10 leading-relaxed">
+            <div className="flex justify-center mb-8">
+              <img src="/images/hero-text.png" alt="Where Art Dreams Come True" className="h-24 md:h-32 lg:h-48 w-auto" />
+            </div>
+            <p className="text-gray-200 max-w-2xl mx-auto text-lg md:text-xl mb-10 leading-relaxed font-medium">
               Where tradition meets modern artistry. Our expert artists bring your unique vision to life with precision, safety, and passion.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
