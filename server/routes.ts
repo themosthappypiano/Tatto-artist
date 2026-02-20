@@ -7,32 +7,32 @@ async function seedDatabase() {
   const existingItems = await storage.getGalleryItems();
   if (existingItems.length === 0) {
     await storage.createGalleryItem({
-      title: "Pharaoh Portrait",
+      title: "Rose & Scorpion Hand",
       category: "Tattoos",
-      styleTags: "Black & Grey",
-      artistName: "Wyskii",
-      imageUrl: "/images/image_1771589993398.png"
-    });
-    await storage.createGalleryItem({
-      title: "Ear Piercings",
-      category: "Piercings",
-      styleTags: "Jewelry",
+      styleTags: "Color, Traditional",
       artistName: "Caelan",
-      imageUrl: "/images/image_1771590016477.png"
+      imageUrl: "/images/gallery-tattoo-1.png"
     });
     await storage.createGalleryItem({
-      title: "Scorpion & Rose Hand",
+      title: "Heart & Butterfly Script",
       category: "Tattoos",
-      styleTags: "Color",
+      styleTags: "Black & Grey, Script",
       artistName: "Wyskii",
-      imageUrl: "/images/image_1771590042708.png"
+      imageUrl: "/images/gallery-tattoo-2.png"
     });
     await storage.createGalleryItem({
-      title: "Gothic Face/Skull",
+      title: "Egyptian Hand Design",
       category: "Tattoos",
-      styleTags: "Color, Black & Grey",
+      styleTags: "Color, Egyptian",
       artistName: "Caelan",
-      imageUrl: "/images/image_1771590087510.png"
+      imageUrl: "/images/gallery-tattoo-3.png"
+    });
+    await storage.createGalleryItem({
+      title: "Floral Sleeve Detail",
+      category: "Tattoos",
+      styleTags: "Black & Grey, Floral",
+      artistName: "Wyskii",
+      imageUrl: "/images/gallery-tattoo-4.png"
     });
   }
 }

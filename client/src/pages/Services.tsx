@@ -6,14 +6,14 @@ export default function Services() {
     {
       title: "First Time Booking",
       price: "$25.00 ・ 30 min",
-      desc: "Virtual Consultation / FaceTime / Zoom. Your information is securely stored and used only to coordinate your appointment. Please note that all virtual consultation fees are non-refundable. This policy helps protect our artists' time and commitment to your custom design.",
-      features: ["1-2 hours pre-appointment contact", "Design discussion", "Secure information handling", "Vision alignment"]
+      desc: "**virtual consultation** with Tattoo Hut Houston! Your information is securely stored and used only to coordinate your appointment. Please note that all **virtual consultation fees are non-refundable**. This policy helps protect our artists' time and commitment to your custom design. Once your booking is confirmed, your chosen artist will contact you **1 to 2 hours before your scheduled time** to go over tattoo details, ideas, and next steps. We appreciate your trust and look forward to helping bring your vision to life—even from a distance!",
+      features: ["Virtual consultation via FaceTime/Zoom", "1-2 hours pre-appointment contact", "Custom design discussion", "Non-refundable policy"]
     },
     {
       title: "Consultation / Tattoo Booking",
       price: "$100.00 ・ 2 hr",
-      desc: "Thank you for booking with Tattoo Hut Houston! We appreciate your trust in us. All your information is kept safe and is used solely to help schedule a time that works best for both you and our team. Please note that deposits are non-refundable and secure your spot.",
-      features: ["Artist name assignment", "One hour pre-appointment contact", "Final confirmation", "Secure spot"]
+      desc: "Thank you for booking with Tattoo Hut Houston! We appreciate your trust in us. All your information is kept safe and is used solely to help schedule a time that works best for both you and our team. You've requested to book with **[Artist Name]** for your tattoo. Please note that **deposits are non-refundable** and secure your spot. With your deposit, the artist will contact you **one hour before your scheduled time** for a quick consultation and final confirmation. We look forward to working with you and bringing your tattoo vision to life!",
+      features: ["Specific artist assignment", "One hour pre-appointment contact", "Final consultation and confirmation", "Non-refundable deposit secures spot"]
     },
     {
       title: "Tattoo Session",

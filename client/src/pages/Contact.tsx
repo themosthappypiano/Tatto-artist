@@ -25,7 +25,12 @@ export default function Contact() {
   };
 
   return (
-    <div className="pt-20 min-h-screen">
+    <div className="pt-20 min-h-screen relative">
+      {/* Background overlay with subtle tattoo image */}
+      <div className="absolute inset-0 opacity-5">
+        <img src="/images/floral-sleeve-tattoo.jpg" alt="" className="w-full h-full object-cover" />
+      </div>
+      <div className="relative z-10">
       <Section>
         <SectionHeader title="Get In Touch" subtitle="Contact Us" center />
         
@@ -41,7 +46,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="text-white font-bold mb-1">Visit Us</h4>
-                  <p className="text-gray-400 text-sm">123 Ink Street, Artistic District<br />Cityville, ST 12345</p>
+                  <p className="text-gray-400 text-sm">455 W Parker Rd<br />Houston, TX 77091, United States</p>
                 </div>
               </div>
 
@@ -51,7 +56,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="text-white font-bold mb-1">Call Us</h4>
-                  <p className="text-gray-400 text-sm">+1 (555) 123-4567</p>
+                  <p className="text-gray-400 text-sm">+15042950091</p>
                 </div>
               </div>
 
@@ -76,12 +81,18 @@ export default function Contact() {
               </div>
             </div>
 
-            {/* Map Placeholder */}
-            <div className="aspect-video bg-gray-800 border border-white/10 relative overflow-hidden group">
-              <div className="absolute inset-0 flex items-center justify-center bg-card">
-                <span className="text-gray-500 font-display">Map Integration Placeholder</span>
-              </div>
-              {/* If real map needed, embed iframe here */}
+            {/* Google Maps Embed */}
+            <div className="aspect-video bg-gray-800 border border-white/10 relative overflow-hidden group rounded-lg">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3464.7261472838843!2d-95.51712628842024!3d29.865834075193825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c722c2b7b4a9%3A0x4e5f6b6d5a4b3c2d!2s455%20W%20Parker%20Rd%2C%20Houston%2C%20TX%2077091%2C%20USA!5e0!3m2!1sen!2sus!4v1708447200000!5m2!1sen!2sus"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen={true}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="rounded-lg group-hover:scale-105 transition-transform duration-500"
+              />
             </div>
           </div>
 
@@ -121,6 +132,7 @@ export default function Contact() {
           </div>
         </div>
       </Section>
+      </div>
     </div>
   );
 }

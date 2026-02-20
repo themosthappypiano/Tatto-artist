@@ -31,7 +31,7 @@ export default function Book() {
           </div>
 
           <p className="text-sm text-gray-500">
-            Having trouble booking online? Call us at <a href="tel:+15551234567" className="text-white hover:text-primary underline">+1 (555) 123-4567</a>
+            Having trouble booking online? Call us at <a href="tel:+15042950091" className="text-white hover:text-primary underline">+15042950091</a>
           </p>
         </div>
       </Section>

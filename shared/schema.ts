@@ -1,9 +1,9 @@
-import { pgTable, text, serial } from "drizzle-orm/pg-core";
+import { sqliteTable, text, integer } from "drizzle-orm/sqlite-core";
 import { createInsertSchema } from "drizzle-zod";
 import { z } from "zod";
 
-export const galleryItems = pgTable("gallery_items", {
-  id: serial("id").primaryKey(),
+export const galleryItems = sqliteTable("gallery_items", {
+  id: integer("id").primaryKey({ autoIncrement: true }),
   title: text("title").notNull(),
   category: text("category").notNull(), // e.g., 'Tattoos', 'Piercings'
   styleTags: text("style_tags"), // e.g., 'Black & Grey', 'Color'

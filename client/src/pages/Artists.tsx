@@ -11,7 +11,7 @@ const artists = [
     name: "Alex 'Ink' Morgan",
     role: "Realism Specialist",
     bio: "With over 10 years of experience, Alex specializes in hyper-realistic portraits and black & grey work. His attention to detail is unmatched in the industry.",
-    image: "/images/image_1771590016477.png", // Using provided image
+    image: "/images/portrait-tattoo.jpg", // Memorial portrait work
     instagram: "@alex_ink",
   },
   {
@@ -19,7 +19,7 @@ const artists = [
     name: "Sarah 'Viper' Chen",
     role: "Neo-Traditional & Color",
     bio: "Sarah brings vibrant colors and bold lines to life. Her neo-traditional style mixes classic motifs with modern color theory for tattoos that pop.",
-    image: "/images/image_1771590042708.png", // Using provided image
+    image: "/images/rose-scorpion-tattoo.jpg", // Color work example
     instagram: "@viper_tattoos",
   },
   {
@@ -27,7 +27,7 @@ const artists = [
     name: "Marcus Thorne",
     role: "Geometric & Dotwork",
     bio: "A master of sacred geometry and intricate dotwork. Marcus creates mesmerizing patterns that flow perfectly with the body's natural contours.",
-    image: "/images/image_1771589993398.png", // Using provided image
+    image: "/images/buddha-hand-tattoo.jpg", // Geometric and religious work
     instagram: "@thorne_geo",
   }
 ];

@@ -36,13 +36,13 @@ export function Navbar() {
       <header
         className={cn(
           "fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b border-transparent",
-          scrolled ? "bg-background/95 backdrop-blur-md border-white/10 py-3" : "bg-transparent py-5"
+          scrolled ? "bg-background/95 backdrop-blur-md border-white/10 py-4" : "bg-transparent py-8"
         )}
       >
         <div className="container mx-auto px-4 flex items-center justify-between">
           <Link href="/" className="relative z-50 group">
             <div className="flex items-center cursor-pointer">
-              <img src="/images/logo.png" alt="Tattoo Hut Logo" className="h-16 w-auto" />
+              <img src="/images/logo.png?v=5" alt="Tattoo Hut Logo" className="h-40 w-auto" />
             </div>
           </Link>
 
@@ -113,7 +113,7 @@ export function Navbar() {
 
       {/* Mobile Bottom Bar */}
       <div className="fixed bottom-0 left-0 right-0 z-50 bg-card border-t border-white/10 lg:hidden flex justify-between items-center px-6 py-4 pb-safe">
-        <a href="tel:+1234567890" className="flex flex-col items-center gap-1 text-gray-400 hover:text-primary transition-colors">
+        <a href="tel:+15042950091" className="flex flex-col items-center gap-1 text-gray-400 hover:text-primary transition-colors">
           <Phone size={20} />
           <span className="text-[10px] uppercase tracking-wider">Call</span>
         </a>
